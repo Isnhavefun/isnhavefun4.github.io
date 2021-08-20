@@ -1,0 +1,135 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+} 
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+}
+
+.top-header {
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-top: 5px solid darkblue;
+    border-bottom: 5px solid darkblue;
+}
+
+.header-logo {
+    padding: 5px 30px;
+    font-size: 25px;
+}
+
+.header-logo span {
+    color: lime;
+}
+
+.bottom-header {
+    height: 50px;
+    background-color: rgb(39, 39, 211);
+    border-bottom: 5px solid darkblue;
+    opacity: 0.9;
+}
+
+.bottom-header a {
+    display: inline-block;
+    color: rgba(39, 39, 211);
+    background-color: rgb(216, 207, 250);
+    padding: 10px 40px; 
+    margin: 0 70px;
+    border: 3px solid darkblue;
+}
+
+.bottom-header a:hover {
+    background-color: rgb(37, 105, 207);
+    color: white;
+}
+
+.top-wrapper {
+  background-image: url(https://3.bp.blogspot.com/-kyCggVWkmro/Uku9bVG2B7I/AAAAAAAAYic/El5YLTvXyQs/s800/tatemono_buildings.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 400px; 
+  border-bottom: 2px solid blue;
+  margin-top: 100px;
+}
+
+.top-wrapper h1 {
+  text-align: center;
+  color: beige;
+  padding: 160px 0 100px 0;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.other-cities {
+  height: 300px;
+  margin: 100px;
+}
+
+.other-city {
+  background-image: url(https://1.bp.blogspot.com/-KY-XBsr5iz4/WTd4k5rTF4I/AAAAAAABEog/BD1mz_McXwgRYpgyrVT3mM_Sypa9yofYwCLcB/s800/fukei_mura.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25%;
+  float: left;
+  height: 250px;
+  position: relative;
+}
+
+.other-city a {
+  display: inline-block;
+  color: rgb(116, 202, 116);
+  background-color: rgb(250, 252, 251);
+  border: 2px solid black;
+}
+
+.top-page {
+  position: absolute;
+  top: 100px;
+  left: 95px;
+  padding: 10px;
+}
+
+.login-page {
+  margin-top: 200px;
+  margin-left: 100px;
+  padding: 5px;
+}
+
+.other-city a:hover{
+  background-color: black;
+  color: white;
+}
+
+footer {
+  height: 100px;
+  background-color: blue;
+  color: white;
+}
+ 
+footer p {
+  font-size: 20px;
+  padding: 30px 0 30px 50px
+}
